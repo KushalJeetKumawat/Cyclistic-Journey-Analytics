@@ -241,3 +241,21 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 </details>
 
 --- 
+
+## Business Impact & Recommendations
+
+![Operational Efficiency](https://img.shields.io/badge/Operational_Efficiency-Fleet_Optimization-white?style=flat-square&labelColor=1A73E8&color=34A853) 
+![Station Planning](https://img.shields.io/badge/Station_Planning-Resource_Allocation-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
+![Customer Experience](https://img.shields.io/badge/Customer_Experience-Demand_Forecasting-white?style=flat-square&labelColor=34A853&color=FFD400) 
+
+- Focus station expansion and bike availability in consistently high-demand areas like Chelsea & Clinton and the Lower East Side.
+- Redistribute bikes more frequently in high-congestion zones to reduce operational strain.
+- Increase fleet and staffing support during summer and fall, when ridership is highest.
+- Use weather patterns to plan bike rebalancing on low-demand rainy days.
+- Promote usage in low-activity neighborhoods such as Sunset Park to improve system balance.
+
+---
+
+<p align="center">
+  <sub><i>This project was created as part of my data analytics learning journey, using Cyclistic's fictional bike-share scenario.</i></sub>
+</p>
