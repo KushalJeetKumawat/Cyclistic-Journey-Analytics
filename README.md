@@ -137,3 +137,107 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 > **Explore Dashboard Highlights**
 
 >This section breaks down major findings from each dashboard.
+
+<table>
+  <tr>
+    <th>Insight Category</th>
+    <th>What It Means</th>
+    <th>Key Data Point</th>    
+  </tr>
+
+  <tr>
+    <td><b>Seasonality</b></td>
+    <td>Ridership peaks in warmer months, with fall showing the highest activity.</td>
+    <td>September shows the strongest usage among all seasons.</td>
+  </tr>
+
+  <tr>
+    <td><b>Weather Impact</b></td>
+    <td>Riders prefer clear days, though summer demand remains stable even during rain.</td>
+    <td>Summer rainy vs non-rainy trips remain nearly equal, unlike fall.</td>
+  </tr>
+
+  <tr>
+    <td><b>Congestion</b></td>
+    <td>Central neighborhoods experience operational strain and require capacity planning.</td>
+    <td>Lower Manhattan (ZIP 10278) reaches a congestion ratio of <b>18.9</b>.</td>
+  </tr>
+
+  <tr>
+    <td><b>Bike Utilization</b></td>
+    <td>Certain stations are over-utilized, indicating imbalance in bike distribution.</td>
+    <td>Chelsea & Clinton (ZIP 10199) shows <b>10.69 trips per bike</b>, the highest.</td>
+  </tr>
+
+  <tr>
+    <td><b>Top Trip Locations</b></td>
+    <td>Chelsea & Clinton and the Lower East Side act as major trip hubs.</td>
+    <td>ZIP 10011 and ZIP 10003 lead in both trip count and duration.</td>
+  </tr>
+
+  <tr>
+    <td><b>Summer Trends</b></td>
+    <td>Peak summer activity occurs in September, with consistent demand in key neighborhoods.</td>
+    <td>Lower East Side (ZIP 10003) logs <b>113,731 trips</b> in September.</td>
+  </tr>  
+</table>
+
+<details>
+  <summary><b>View Full Insight Comparison</b></summary>
+
+<br>
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Peak Areas / Seasons</th>
+    <th>Main Influencing Factor</th>
+    <th>Operational Implication</th>
+  </tr>
+
+   <tr>
+    <td><b>Seasonality</b></td>
+    <td>Summer & Fall</td>
+    <td>Temperature & seasonal behavior</td>
+    <td>Allocate more bikes and staff in peak months</td>
+  </tr>
+
+  <tr>
+    <td><b>Weather Impact</b></td>
+    <td>Summer holds steady even in rain</td>
+    <td>Rain vs non-rain</td>
+    <td>Plan redistribution differently on rainy days</td>
+  </tr>
+
+  <tr>
+    <td><b>Congestion</b></td>
+    <td>Chelsea & Clinton, Lower Manhattan</td>
+    <td>High ride density</td>
+    <td>Increase station capacity & rebalancing frequency</td>
+  </tr>
+
+  <tr>
+    <td><b>Bike Utilization</b></td>
+    <td>Central Manhattan zones</td>
+    <td>Rider concentration</td>
+    <td>Improve fleet distribution & reduce shortages</td>
+  </tr>
+
+  <tr>
+    <td><b>Top Trip Locations</b></td>
+    <td>Lower East Side, Chelsea & Clinton</td>
+    <td>Trip duration & frequency</td>
+    <td>Focus expansion & service enhancements here</td>
+  </tr>
+
+  <tr>
+    <td><b>Summer Trends</b></td>
+    <td>September peak</td>
+    <td>Seasonal tourism & commuting</td>
+    <td>Prepare for late-summer resource spikes</td>
+  </tr>
+</table>
+
+</details>
+
+--- 
