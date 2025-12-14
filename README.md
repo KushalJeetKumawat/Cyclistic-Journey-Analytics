@@ -53,7 +53,7 @@ The final deliverables include a structured analytical dataset, defined KPIs for
 ![Months](https://img.shields.io/badge/Peak_Month-September-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
 ![Station](https://img.shields.io/badge/Top_Station-Chelsea_%26_Clinton-white?style=flat-square&labelColor=34A853&color=FFD400) 
 
-> **Note**
+> **📌 Note**
 
 > This project uses a fictional Cyclistic business context, while the underlying 2015 trip data is sourced from real CitiBike records.
 
@@ -112,7 +112,7 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 
 ## Analysis & Visualization
 
-> **Summary**
+> **📝 Summary**
 
 >This section summarizes the analytical work performed in BigQuery and the visualization process in Tableau.
 
@@ -134,7 +134,7 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 
 ## Insights
 
-> **Explore Dashboard Highlights**
+> **ℹ️ Explore Dashboard Highlights**
 
 >This section breaks down major findings from each dashboard.
 
