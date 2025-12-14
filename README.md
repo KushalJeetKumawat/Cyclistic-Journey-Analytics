@@ -83,3 +83,57 @@ The final deliverables include a structured analytical dataset, defined KPIs for
 ---
 
 ## Project Timeline
+
+![SQL BigQuery](https://img.shields.io/badge/SQL-BigQuery-white?style=flat-square&labelColor=1A73E8&color=34A853&logo=googlebigquery&logoColor=white) 
+![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
+![Excel Export](https://img.shields.io/badge/Excel-Export-white?style=flat-square&labelColor=34A853&color=FFD400&logo=microsoft-excel&logoColor=white)
+
+- **Phase 1 - Data Acquisition**
+
+Collected trip-level data, weather records, and ZIP-code boundaries from Google BigQuery public datasets.
+
+- **Phase 2 - Data Preparation**
+
+Cleaned, standardized, and merged all datasets into a unified 2015 analytical table, resolving inconsistencies and aligning geographic and weather attributes
+
+- **Phase 3 - SQL Analysis & Feature Engineering**
+
+Created key analytical fields (trip duration, rainy-day flag, congestion ratio, trips per bike) and computed core KPIs to support visualization and interpretation.
+
+- **Phase 4 - Dashboard Development**
+
+Built four interactive Tableau dashboards covering seasonality, operational efficiency, top trip locations, and summer ride patterns.
+
+- **Phase 5 - Insights & Recommendations**
+
+Interpreted dashboard outputs to identify ridership trends, congestion hotspots, high-demand neighborhoods, and opportunites for operational improvement.
+
+---
+
+## Analysis & Visualization
+
+> **Summary**
+
+>This section summarizes the analytical work performed in BigQuery and the visualization process in Tableau.
+
+ **SQL Analysis**
+
+ - Trip data, weather data, and geographic information were combined in BigQuery to create a single analysis-ready dataset.
+ - SQL was used to calculate key performance metrics such as trip count, trip duration, congestion ratio, and trips per bike.
+ - Additional analytical fields were engineered to support operational and temporal comparisons, including seasonal labels, rainy day indicators, and hourly station activity.
+ - The data was aggregated by date, usertype, and location to support a wide range of visual insights.
+
+**Tableau Visualization**
+
+- The final dataset was imported into Tableau Public, where four interactive dashboards was created.
+- These dashboards highlight seasonal and weather trends, operational efficiency accross locations, top performing start and destination points,and detailed summer ride patterns.
+- Users can explore the data through built-in parameters and filters such as month selection, usertype filtering, weather filtering, and metric toggles.
+- The visualizations present the SQL analysis in a clear and accessible form for decision making.
+
+---
+
+## Insights
+
+> **Explore Dashboard Highlights**
+
+>This section breaks down major findings from each dashboard.
