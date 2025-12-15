@@ -269,6 +269,19 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
 
 ---
 
+## Resources & Links
+
+### View Interactive Dashboard
+[Open Tableau Dashboard](https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+### Datasets Used
+- [NYC Citi Bike Trips](https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-citi-bike) 
+- [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries)
+- [GSOD - NOAA](https://console.cloud.google.com/marketplace/details/noaa-public/gsod)
+- [Zip Code Spreadsheet](https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255)
+
+---
+
 ## Repository Structure
 
 <table>
@@ -297,6 +310,8 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
     <td>Main project overview and documentation.</td>
   </tr>
 </table>
+
+---
 
 <p align="center">
   <sub><i>This project was created as part of my data analytics learning journey, using Cyclistic's fictional bike-share scenario.</i></sub>
