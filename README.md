@@ -1,26 +1,26 @@
 <h1 align="left">Cyclistic Journey Analytics: A Data-Driven Study of Ridership</h1>
 
 <p align="center">
-  <img src="Images/Cyclistic_Banner.png" width="100" />
+  <img src="Images/Cyclistic_Banner.png" width="100%" />
 </p>
 
 <table> 
   <tr>
     <td align="center" width="33%">
       <a href="#analysis--visualization">
-        <img src="https://img.icons8.com/ios-filled/100/1a73e8/sql.png" width="35px"/>
+        <img src="https://img.icons8.com/ios-filled/100/1a73e8/sql.png" width="40px"/>
         <h4>SQL Analysis</h4>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#insights">
-        <img src="https://img.icons8.com/ios-filled/100/f9ab00/combo-chart.png" width="35px"/>
+        <img src="https://img.icons8.com/ios-filled/100/f9ab00/combo-chart.png" width="40px"/>
         <h4>Insights and Highlights</h4>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#business-impact--recommendations">
-        <img src="https://img.icons8.com/ios-filled/100/34a853/positive-dynamic.png" width="35px"/>
+        <img src="https://img.icons8.com/ios-filled/100/34a853/positive-dynamic.png" width="40px"/>
         <h4>Business Impact</h4>
       </a>
     </td>    
