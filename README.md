@@ -1,22 +1,26 @@
 <h1 align="left">Cyclistic Journey Analytics: A Data-Driven Study of Ridership</h1>
 
+<p align="center">
+  <img src="Images/Cyclistic_Banner.png" width="100" />
+</p>
+
 <table> 
   <tr>
     <td align="center" width="33%">
       <a href="#analysis--visualization">
-        <img src="https://img.icons8.com/ios-filled/100/1a73e8/sql.png" width="30px"/>
+        <img src="https://img.icons8.com/ios-filled/100/1a73e8/sql.png" width="60px"/>
         <h4>SQL Analysis</h4>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#insights">
-        <img src="https://img.icons8.com/ios-filled/100/f9ab00/combo-chart.png" width="30px"/>
+        <img src="https://img.icons8.com/ios-filled/100/f9ab00/combo-chart.png" width="60px"/>
         <h4>Insights and Highlights</h4>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#business-impact--recommendations">
-        <img src="https://img.icons8.com/ios-filled/100/34a853/positive-dynamic.png" width="30px"/>
+        <img src="https://img.icons8.com/ios-filled/100/34a853/positive-dynamic.png" width="60px"/>
         <h4>Business Impact</h4>
       </a>
     </td>    
@@ -73,6 +77,7 @@ The final deliverables include a structured analytical dataset, defined KPIs for
       <table>
         <tr><th>Parameter</th><th>Value</th></tr>
         <tr><td>Time Period Covered</td><td>January-December 2015</td></tr>
+        <tr><td>Total Trip Records</td><td>~2.3 million</td></tr>
         <tr><td>Final Analytical Dataset</td><td>Combined trips + weather + ZIP mapping + engineered metrics</td></tr>
         <tr><td>Data Source</td><td>Google BigQuery Public Datasets</td></tr>
       </table>
@@ -129,6 +134,14 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 - These dashboards highlight seasonal and weather trends, operational efficiency accross locations, top performing start and destination points,and detailed summer ride patterns.
 - Users can explore the data through built-in parameters and filters such as month selection, usertype filtering, weather filtering, and metric toggles.
 - The visualizations present the SQL analysis in a clear and accessible form for decision making.
+
+
+<p align="left">
+  <a 
+href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+    <img src="https://img.shields.io/badge/View%20Dashboard-1a73e8?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
@@ -255,6 +268,35 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 - Promote usage in low-activity neighborhoods such as Sunset Park to improve system balance.
 
 ---
+
+## Repository Structure
+
+<table>
+  <tr>
+    <th>Folder / File</th>
+    <th>Purpose</th>
+  </tr>
+
+  <tr>
+    <td><b>SQL/</b></td>
+    <td>Contains the full BigQuery SQL file used to build the analytical dataset.</td>
+  </tr>
+
+  <tr>
+    <td><b>Images/</b></td>
+    <td>Holds the project banner and all dashboard screenshots.</td>
+  </tr>
+
+  <tr>
+    <td><b>Docs/</b></td>
+    <td>Includes the full project report (PDF) and any supporting documents.</td>
+  </tr>
+
+  <tr>
+    <td><b>README.md/</b></td>
+    <td>Main project overview and documentation.</td>
+  </tr>
+</table>
 
 <p align="center">
   <sub><i>This project was created as part of my data analytics learning journey, using Cyclistic's fictional bike-share scenario.</i></sub>
