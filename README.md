@@ -1,4 +1,4 @@
-<h1 align="left">Cyclistic Journey Analytics: A Data-Driven Study of Ridership</h1>
+<h1 align="center">Cyclistic Journey Analytics: A Data-Driven Study of Ridership</h1>
 
 <p align="center">
   <img src="Images/Cyclistic_Banner.png" width="100%" />
@@ -28,9 +28,10 @@
 </table>
 
 > **Project Journey**
+>
+> This project started with a simple question: What story does a city tell through its rides?  
+> As I worked through the data, patterns slowly surfaced—busy mornings, favorite neighborhoods, quiet winter days. SQL helped uncover the pieces, and the dashboards helped connect them. What you see here is the journey of watching a city reveal itself one insight at a time. 
 
-> This project started with a simple question: What story does a city tell through its rides?
-As I worked through the data, patterns slowly surfaced-busy mornings, favorite neighborhoods, quiet winter days. SQL helped uncover the pieces, and the dashboards helped connect them. What you see here is the journey of watching a city reveal itself one insight at a time. 
 ---
 
 ## Project Overview 
@@ -41,22 +42,23 @@ Cyclistic is a fictitious NYC bike-share company created for an analytics case s
 
 **2. Objective of the Project** 
 
-The goal of this project is to analyze Cyclistic’s 2015 ridership data to uncover seasonal trends, location specific demand, weather impacts, congestion patterns, and bike utilization efficiency. This helps identify high demand zones, operational bottlenecks, and opportunities for resource allocation.
+The goal of this project is to analyze Cyclistic’s 2015 ridership data to uncover seasonal trends, location-specific demand, weather impacts, congestion patterns, and bike utilization efficiency. This helps identify high-demand zones, operational bottlenecks, and opportunities for resource allocation.
 
 **3. Data Used in the Analysis**
 
-The analysis combines CitiBike trip records, daily weather observations, and ZIP-code level geographic information. These datasets were cleaned, merged, and transformed in Google BigQuery to create a single unified analytical dataset enriched with metrics such as trip duration, congestion ratio, and trips per bike.
+The analysis combines CitiBike trip records, daily weather observations, and ZIP-code level geographic information. These datasets were cleaned, merged, and transformed in Google BigQuery to create a single unified analytical dataset enriched with derived metrics such as trip duration, congestion ratio, and trips per bike.
 
 **4. Project Deliverables**
 
 The final deliverables include a structured analytical dataset, defined KPIs for operational and behavioral insights, and four interactive Tableau dashboards covering seasonality, system efficiency, top trip locations, and summer ride patterns. These visual tools enable data-driven decision-making for planning and operational improvement.
 
 ---
+
 ## Dataset Summary Panel
 
 ![Rides](https://img.shields.io/badge/Total_Trips_Analyzed-~2.3M-white?style=flat-square&labelColor=1A73E8&color=34A853) 
-![Months](https://img.shields.io/badge/Peak_Month-September-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
-![Station](https://img.shields.io/badge/Top_Station-Chelsea_%26_Clinton-white?style=flat-square&labelColor=34A853&color=FFD400) 
+![Months](https://img.shields.io/badge/Peak_Month-September-white?style=flat-square&labelColor=f9ab00&color=1A73E8) 
+![Station](https://img.shields.io/badge/Top_Station-Chelsea_%26_Clinton-white?style=flat-square&labelColor=34A853&color=f9ab00) 
 
 > **📌 Note**
 
@@ -91,8 +93,8 @@ The final deliverables include a structured analytical dataset, defined KPIs for
 ## Project Timeline
 
 ![SQL BigQuery](https://img.shields.io/badge/SQL-BigQuery-white?style=flat-square&labelColor=1A73E8&color=34A853&logo=googlebigquery&logoColor=white) 
-![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
-![Excel Export](https://img.shields.io/badge/Excel-Export-white?style=flat-square&labelColor=34A853&color=FFD400&logo=microsoft-excel&logoColor=white)
+![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-white?style=flat-square&labelColor=f9ab00&color=1A73E8) 
+![Excel Export](https://img.shields.io/badge/Excel-Export-white?style=flat-square&labelColor=34A853&color=f9ab00&logo=microsoft-excel&logoColor=white)
 
 - **Phase 1 - Data Acquisition**
 
@@ -100,7 +102,7 @@ Collected trip-level data, weather records, and ZIP-code boundaries from Google 
 
 - **Phase 2 - Data Preparation**
 
-Cleaned, standardized, and merged all datasets into a unified 2015 analytical table, resolving inconsistencies and aligning geographic and weather attributes
+Cleaned, standardized, and merged all datasets into a unified 2015 analytical table, resolving inconsistencies and aligning geographic and weather attributes.
 
 - **Phase 3 - SQL Analysis & Feature Engineering**
 
@@ -112,7 +114,7 @@ Built four interactive Tableau dashboards covering seasonality, operational effi
 
 - **Phase 5 - Insights & Recommendations**
 
-Interpreted dashboard outputs to identify ridership trends, congestion hotspots, high-demand neighborhoods, and opportunites for operational improvement.
+Interpreted dashboard outputs to identify ridership trends, congestion hotspots, high-demand neighborhoods, and opportunities for operational improvement.
 
 ---
 
@@ -120,7 +122,7 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 
 > **📝 Summary**
 
->This section summarizes the analytical work performed in BigQuery and the visualization process in Tableau.
+> This section summarizes the analytical work performed in BigQuery and the visualization process in Tableau.
 
  **SQL Analysis**
 
@@ -131,8 +133,8 @@ Interpreted dashboard outputs to identify ridership trends, congestion hotspots,
 
 **Tableau Visualization**
 
-- The final dataset was imported into Tableau Public, where four interactive dashboards was created.
-- These dashboards highlight seasonal and weather trends, operational efficiency accross locations, top performing start and destination points,and detailed summer ride patterns.
+- The final dataset was imported into Tableau Public, where four interactive dashboards were created.
+- These dashboards highlight seasonal and weather trends, operational efficiency across locations, top performing start and destination points, and detailed summer ride patterns.
 - Users can explore the data through built-in parameters and filters such as month selection, usertype filtering, weather filtering, and metric toggles.
 - The visualizations present the SQL analysis in a clear and accessible form for decision making.
 
@@ -150,7 +152,7 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
 
 > **ℹ️ Explore Dashboard Highlights**
 
->This section breaks down major findings from each dashboard.
+> This section breaks down major findings from each dashboard.
 
 <table>
   <tr>
@@ -211,8 +213,8 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
 
    <tr>
     <td><b>Seasonality</b></td>
-    <td>Summer & Fall</td>
-    <td>Temperature & seasonal behavior</td>
+    <td>Summer and Fall</td>
+    <td>Temperature and seasonal behavior</td>
     <td>Allocate more bikes and staff in peak months</td>
   </tr>
 
@@ -227,27 +229,27 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
     <td><b>Congestion</b></td>
     <td>Chelsea & Clinton, Lower Manhattan</td>
     <td>High ride density</td>
-    <td>Increase station capacity & rebalancing frequency</td>
+    <td>Increase station capacity and rebalancing frequency</td>
   </tr>
 
   <tr>
     <td><b>Bike Utilization</b></td>
     <td>Central Manhattan zones</td>
     <td>Rider concentration</td>
-    <td>Improve fleet distribution & reduce shortages</td>
+    <td>Improve fleet distribution and reduce shortages</td>
   </tr>
 
   <tr>
     <td><b>Top Trip Locations</b></td>
     <td>Lower East Side, Chelsea & Clinton</td>
-    <td>Trip duration & frequency</td>
-    <td>Focus expansion & service enhancements here</td>
+    <td>Trip duration and frequency</td>
+    <td>Focus expansion and service enhancements here</td>
   </tr>
 
   <tr>
     <td><b>Summer Trends</b></td>
     <td>September peak</td>
-    <td>Seasonal tourism & commuting</td>
+    <td>Seasonal tourism and commuting</td>
     <td>Prepare for late-summer resource spikes</td>
   </tr>
 </table>
@@ -259,8 +261,8 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
 ## Business Impact & Recommendations
 
 ![Operational Efficiency](https://img.shields.io/badge/Operational_Efficiency-Fleet_Optimization-white?style=flat-square&labelColor=1A73E8&color=34A853) 
-![Station Planning](https://img.shields.io/badge/Station_Planning-Resource_Allocation-white?style=flat-square&labelColor=FFD400&color=1A73E8) 
-![Customer Experience](https://img.shields.io/badge/Customer_Experience-Demand_Forecasting-white?style=flat-square&labelColor=34A853&color=FFD400) 
+![Station Planning](https://img.shields.io/badge/Station_Planning-Resource_Allocation-white?style=flat-square&labelColor=f9ab00&color=1A73E8) 
+![Customer Experience](https://img.shields.io/badge/Customer_Experience-Demand_Forecasting-white?style=flat-square&labelColor=34A853&color=f9ab00) 
 
 - Focus station expansion and bike availability in consistently high-demand areas like Chelsea & Clinton and the Lower East Side.
 - Redistribute bikes more frequently in high-congestion zones to reduce operational strain.
@@ -294,7 +296,7 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
   </tr>
 
   <tr>
-    <td><b>README.md/</b></td>
+    <td><b>README.md</b></td>
     <td>Main project overview and documentation.</td>
   </tr>
 </table>
@@ -315,7 +317,7 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
   <img src="https://img.shields.io/badge/CitiBike_Trips-f9ab00?style=flat">
 </a>
 
-<a href="(https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries)">
+<a href="https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries">
   <img src="https://img.shields.io/badge/US_Boundaries-1a73e8?style=flat">
 </a>
 
