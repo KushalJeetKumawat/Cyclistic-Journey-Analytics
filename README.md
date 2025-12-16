@@ -29,7 +29,8 @@
 
 > **Project Journey**
 
-> What began as millons of trip records gradually turned into patterns, places, and seasons. With each query came a new layer of meaning, and with each visualization, the story became clearer. This project reflects how data, when explored with curiosity and purpose, transforms into a story worth seeing.
+> This project started with a simple question: What story does a city tell through its rides?
+As I worked through the data, patterns slowly surfaced-busy mornings, favorite neighborhoods, quiet winter days. SQL helped uncover the pieces, and the dashboards helped connect them. What you see here is the journey of watching a city reveal itself one insight at a time. 
 ---
 
 ## Project Overview 
@@ -269,19 +270,6 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
 
 ---
 
-## Resources & Links
-
-### View Interactive Dashboard
-[Open Tableau Dashboard](https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-### Datasets Used
-- [NYC Citi Bike Trips](https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-citi-bike) 
-- [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries)
-- [GSOD - NOAA](https://console.cloud.google.com/marketplace/details/noaa-public/gsod)
-- [Zip Code Spreadsheet](https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255)
-
----
-
 ## Repository Structure
 
 <table>
@@ -310,6 +298,36 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
     <td>Main project overview and documentation.</td>
   </tr>
 </table>
+
+## Resources & Links
+
+<p>
+
+<a href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+  <img src="https://img.shields.io/badge/View_Dashboard-1a73e8?style=flat">
+</a>
+
+<a href="#">
+  <img src="https://img.shields.io/badge/Project_Document-34a853?style=flat">
+</a>
+
+<a href="https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-citi-bike">
+  <img src="https://img.shields.io/badge/CitiBike_Trips-f9ab00?style=flat">
+</a>
+
+<a href="(https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries)">
+  <img src="https://img.shields.io/badge/US_Boundaries-1a73e8?style=flat">
+</a>
+
+<a href="https://console.cloud.google.com/marketplace/details/noaa-public/gsod">
+  <img src="https://img.shields.io/badge/NOAA_Weather-34a853?style=flat">
+</a>
+
+<a href="https://docs.google.com/spreadsheets/d/1IIbH-GM3tdmM5tl56PHhqI7xxCzqaBCU0ylItxk_sy0/template/preview#gid=806359255">
+  <img src="https://img.shields.io/badge/ZIP_Lookup-f9ab00?style=flat">
+</a>
+
+</p>
 
 ---
 
