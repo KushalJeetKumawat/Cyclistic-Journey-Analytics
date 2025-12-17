@@ -281,12 +281,12 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
   </tr>
 
   <tr>
-    <td><b>`SQL`/</b></td>
+    <td><b>SQL/</b></td>
     <td>Contains the full BigQuery SQL file used to build the analytical dataset.</td>
   </tr>
 
   <tr>
-    <td><b>`Images`/</b></td>
+    <td><b>Images/</b></td>
     <td>Holds the project banner and all dashboard screenshots.</td>
   </tr>
 
