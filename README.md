@@ -309,7 +309,7 @@ href="https://public.tableau.com/views/CyclisticJourneyAnalytics/SeasonWeatherTr
   <img src="https://img.shields.io/badge/View_Dashboard-1a73e8?style=flat">
 </a>
 
-<a href="#">
+<a href="https://github.com/KushalJeetKumawat/Cyclistic-Journey-Analytics/blob/main/Docs/Cyclistic_Project_Report.pdf">
   <img src="https://img.shields.io/badge/Project_Document-34a853?style=flat">
 </a>
 
